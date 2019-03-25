@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="117488" started-at="2019-03-25T12:08:08Z" finished-at="2019-03-25T12:10:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="117488" started-at="2019-03-25T12:08:08Z" finished-at="2019-03-25T12:10:05Z">
+      <class name="in.roytalsundaram.scripts.TwoWheelerInusurence">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:in.roytalsundaram.scripts.TwoWheelerInusurence@18be83e4]" name="openApp" is-config="true" duration-ms="67862" started-at="2019-03-25T17:38:08Z" finished-at="2019-03-25T17:39:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="twowheelerinsu()[pri:0, instance:in.roytalsundaram.scripts.TwoWheelerInusurence@18be83e4]" name="twowheelerinsu" duration-ms="48712" started-at="2019-03-25T17:39:16Z" finished-at="2019-03-25T17:40:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twowheelerinsu -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:in.roytalsundaram.scripts.TwoWheelerInusurence@18be83e4]" name="closeApp" is-config="true" duration-ms="863" started-at="2019-03-25T17:40:04Z" finished-at="2019-03-25T17:40:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- in.roytalsundaram.scripts.TwoWheelerInusurence -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
