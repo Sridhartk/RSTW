@@ -7,13 +7,13 @@ import org.openqa.selenium.support.PageFactory;
 
 public class OtherCompanyInsurancePages {
 	@FindBy(xpath="//input[contains(@placeholder,'Please enter your registration number')]")
-	WebElement Regno;
+	private WebElement Regno;
 	
 	@FindBy(xpath="//input[contains(@placeholder,'Please enter mobile number')]")
-	WebElement Mobileno;
+	private WebElement Mobileno;
 	
 	@FindBy(xpath="//button[@title='Get Quote']")
-	WebElement GetBTN;
+	private WebElement GetBTN;
 	public OtherCompanyInsurancePages(WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
