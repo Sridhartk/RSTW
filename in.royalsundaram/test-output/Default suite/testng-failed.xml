@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="in.roytalsundaram.scripts.TwoWheelerInusurence">
+      <class name="in.roytalsundaram.scripts.TWOCRE">
         <methods>
+          <include name="testTWOCR"/>
           <include name="openApp"/>
-          <include name="twowheelerinsu"/>
+          <include name="closeApp"/>
         </methods>
-      </class> <!-- in.roytalsundaram.scripts.TwoWheelerInusurence -->
+      </class> <!-- in.roytalsundaram.scripts.TWOCRE -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

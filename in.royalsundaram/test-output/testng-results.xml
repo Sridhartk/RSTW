@@ -1,25 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[Test testTWOCR is PASS]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="117488" started-at="2019-03-25T12:08:08Z" finished-at="2019-03-25T12:10:05Z">
+  <suite name="Default suite" duration-ms="64193" started-at="2019-04-02T14:32:50Z" finished-at="2019-04-02T14:33:54Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="117488" started-at="2019-03-25T12:08:08Z" finished-at="2019-03-25T12:10:05Z">
-      <class name="in.roytalsundaram.scripts.TwoWheelerInusurence">
-        <test-method status="PASS" signature="openApp()[pri:0, instance:in.roytalsundaram.scripts.TwoWheelerInusurence@18be83e4]" name="openApp" is-config="true" duration-ms="67862" started-at="2019-03-25T17:38:08Z" finished-at="2019-03-25T17:39:16Z">
+    <test name="Default test" duration-ms="64193" started-at="2019-04-02T14:32:50Z" finished-at="2019-04-02T14:33:54Z">
+      <class name="in.roytalsundaram.scripts.TWOCRE">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:in.roytalsundaram.scripts.TWOCRE@18be83e4]" name="openApp" is-config="true" duration-ms="13648" started-at="2019-04-02T20:02:50Z" finished-at="2019-04-02T20:03:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="PASS" signature="twowheelerinsu()[pri:0, instance:in.roytalsundaram.scripts.TwoWheelerInusurence@18be83e4]" name="twowheelerinsu" duration-ms="48712" started-at="2019-03-25T17:39:16Z" finished-at="2019-03-25T17:40:04Z">
+        <test-method status="PASS" signature="testTWOCR()[pri:2, instance:in.roytalsundaram.scripts.TWOCRE@18be83e4]" name="testTWOCR" duration-ms="50136" started-at="2019-04-02T20:03:03Z" finished-at="2019-04-02T20:03:54Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- twowheelerinsu -->
-        <test-method status="PASS" signature="closeApp()[pri:0, instance:in.roytalsundaram.scripts.TwoWheelerInusurence@18be83e4]" name="closeApp" is-config="true" duration-ms="863" started-at="2019-03-25T17:40:04Z" finished-at="2019-03-25T17:40:05Z">
+        </test-method> <!-- testTWOCR -->
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:in.roytalsundaram.scripts.TWOCRE@18be83e4]" name="closeApp" is-config="true" duration-ms="343" started-at="2019-04-02T20:03:54Z" finished-at="2019-04-02T20:03:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTWOCR status=SUCCESS method=TWOCRE.testTWOCR()[pri:2, instance:in.roytalsundaram.scripts.TWOCRE@18be83e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
+            <line>
+              <![CDATA[Test testTWOCR is PASS]]>
+            </line>
           </reporter-output>
         </test-method> <!-- closeApp -->
-      </class> <!-- in.roytalsundaram.scripts.TwoWheelerInusurence -->
+      </class> <!-- in.roytalsundaram.scripts.TWOCRE -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
