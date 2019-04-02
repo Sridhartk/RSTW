@@ -2,37 +2,37 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[Test testTWOCR is PASS]]>
+      <![CDATA[Test testTWOCR1 is PASS]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="64193" started-at="2019-04-02T14:32:50Z" finished-at="2019-04-02T14:33:54Z">
+  <suite name="Default suite" duration-ms="101087" started-at="2019-04-02T18:40:39Z" finished-at="2019-04-02T18:42:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="64193" started-at="2019-04-02T14:32:50Z" finished-at="2019-04-02T14:33:54Z">
-      <class name="in.roytalsundaram.scripts.TWOCRE">
-        <test-method status="PASS" signature="openApp()[pri:0, instance:in.roytalsundaram.scripts.TWOCRE@18be83e4]" name="openApp" is-config="true" duration-ms="13648" started-at="2019-04-02T20:02:50Z" finished-at="2019-04-02T20:03:03Z">
+    <test name="Default test" duration-ms="101087" started-at="2019-04-02T18:40:39Z" finished-at="2019-04-02T18:42:20Z">
+      <class name="in.roytalsundaram.scripts.TWOCRE1">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:in.roytalsundaram.scripts.TWOCRE1@18be83e4]" name="openApp" is-config="true" duration-ms="27781" started-at="2019-04-03T00:10:39Z" finished-at="2019-04-03T00:11:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="PASS" signature="testTWOCR()[pri:2, instance:in.roytalsundaram.scripts.TWOCRE@18be83e4]" name="testTWOCR" duration-ms="50136" started-at="2019-04-02T20:03:03Z" finished-at="2019-04-02T20:03:54Z">
+        <test-method status="PASS" signature="testTWOCR1()[pri:0, instance:in.roytalsundaram.scripts.TWOCRE1@18be83e4]" name="testTWOCR1" duration-ms="72740" started-at="2019-04-03T00:11:07Z" finished-at="2019-04-03T00:12:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testTWOCR -->
-        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:in.roytalsundaram.scripts.TWOCRE@18be83e4]" name="closeApp" is-config="true" duration-ms="343" started-at="2019-04-02T20:03:54Z" finished-at="2019-04-02T20:03:54Z">
+        </test-method> <!-- testTWOCR1 -->
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:in.roytalsundaram.scripts.TWOCRE1@18be83e4]" name="closeApp" is-config="true" duration-ms="511" started-at="2019-04-03T00:12:20Z" finished-at="2019-04-03T00:12:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testTWOCR status=SUCCESS method=TWOCRE.testTWOCR()[pri:2, instance:in.roytalsundaram.scripts.TWOCRE@18be83e4] output={null}]]]>
+                <![CDATA[[TestResult name=testTWOCR1 status=SUCCESS method=TWOCRE1.testTWOCR1()[pri:0, instance:in.roytalsundaram.scripts.TWOCRE1@18be83e4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[Test testTWOCR is PASS]]>
+              <![CDATA[Test testTWOCR1 is PASS]]>
             </line>
           </reporter-output>
         </test-method> <!-- closeApp -->
-      </class> <!-- in.roytalsundaram.scripts.TWOCRE -->
+      </class> <!-- in.roytalsundaram.scripts.TWOCRE1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
