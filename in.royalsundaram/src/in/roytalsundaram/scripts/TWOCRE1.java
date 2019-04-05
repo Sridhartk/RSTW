@@ -1,16 +1,21 @@
 package in.roytalsundaram.scripts;
 
+import java.awt.AWTException;
+
+import org.openqa.selenium.JavascriptExecutor;
 import org.testng.annotations.Test;
 
 import in.royalsundaram.generics.BaseTest;
 import in.royalsundaram.generics.XL;
 import in.royalsundaram.pages.OtherCompanyInsurancePages;
+import in.royalsundaram.pages.PremiumPage;
+import in.royalsundaram.pages.RSTWIntroPage;
 import in.royalsundaram.pages.TWOCREPage;
 import in.royalsundaram.pages.TWOther_Company_Renewal_EditPage;
 
 public class TWOCRE1 extends BaseTest{
-   @Test
-   public void testTWOCR1() throws InterruptedException
+   @Test(priority=1)
+   public void testTWOCR1() throws InterruptedException, AWTException
    {
 	   String Regno=XL.getData(XL_PATH, "RSTW", 1, 0);
 	  	String mob=XL.getData(XL_PATH, "RSTW", 1, 1);
@@ -25,11 +30,16 @@ public class TWOCRE1 extends BaseTest{
 		String nam=XL.getData(XL_PATH, "TWOCR1", 1, 0);
 		String mail=XL.getData(XL_PATH, "TWOCR1", 1, 1);
 		
+		RSTWIntroPage TWI=new RSTWIntroPage(driver);
+		TWI.clickBTN();
+		Thread.sleep(3000);
+		
 		OtherCompanyInsurancePages oci=new OtherCompanyInsurancePages(driver);
 		  oci.setRegno(Regno);
 		  oci.setMob(mob);
+		  Thread.sleep(3000);
 		  oci.Clickon();
-		
+		Thread.sleep(3000);
 		TWOther_Company_Renewal_EditPage twocr=new TWOther_Company_Renewal_EditPage(driver);
 		Thread.sleep(2000);
 		
@@ -92,5 +102,14 @@ public class TWOCRE1 extends BaseTest{
 		
 		twocr1.clickGC();
 		Thread.sleep(3000);
+		
+		PremiumPage p=new PremiumPage(driver);
+		
+		
+		p.clickbuyBTN();
+		Thread.sleep(3000);
+		
+//		p.clickok();
+//		Thread.sleep(3000);
    }
 }
