@@ -9,7 +9,7 @@ import in.royalsundaram.generics.XL;
 import in.royalsundaram.pages.OtherCompanyInsurancePages;
 
 public class TwoWheelerInusurence extends BaseTest {
-@Test(priority=1)
+@Test
 public void twowheelerinsu()
 {
   	String Regno=XL.getData(XL_PATH, "RSTW", 1, 0);

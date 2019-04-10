@@ -10,7 +10,7 @@ public interface IAutoConst {
 	String XL_PATH="./data/RSTW.xlsx";
 	String IMG_PATH="./images/";
 	
-	String APP_URL="https://www.royalsundaram.in/";
+	String APP_URL="https://www.royalsundaram.in/two-wheeler-insurance";
 	
 	long ITO=10;
 	long ETO=10;

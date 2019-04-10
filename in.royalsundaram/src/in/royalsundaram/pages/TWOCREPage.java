@@ -37,7 +37,7 @@ public class TWOCREPage {
 	public void clickNCB()
 	{
 		Select select=new Select(NoClaimBouns);
-		 select.selectByIndex(3);
+		 select.selectByIndex(2);
 	}
 	public void ClickNCB1()
 	{

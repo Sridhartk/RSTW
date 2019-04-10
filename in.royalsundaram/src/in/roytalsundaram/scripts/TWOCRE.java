@@ -16,7 +16,7 @@ import in.royalsundaram.pages.OtherCompanyInsurancePages;
 import in.royalsundaram.pages.TWOther_Company_Renewal_EditPage;
 
 public class TWOCRE extends BaseTest {
-	@Test(priority=2)
+	@Test
 	public void testTWOCR() throws InterruptedException, AWTException
 	{
 		String Regno=XL.getData(XL_PATH, "RSTW", 1, 0);
