@@ -117,11 +117,11 @@ public class TWOCRE1 extends BaseTest{
 		//Thread.sleep(3000);
 	//	p.cilckscroll();
 		
+		//Thread.sleep(4000);
+		
+//		p.cilckBTN();
+		
 		Thread.sleep(3000);
-		
-		p.cilckBTN();
-		
-		Thread.sleep(4000);
 	
 		
 		p.clickok();

@@ -34,8 +34,8 @@ public class PremiumPage {
 	@FindBy(xpath="//div[@class=\" wrapperDiv height100 col-md-6 no-padding margin-auto col-sm-8\"]/../div/div[4]")
 	private WebElement cancelBTN;
 	
-	@FindBy(xpath="(//table[@class='table table-responsive premium-breakup-table'])[3]")
-	private WebElement clickBTN;
+//	@FindBy(xpath="(//table[@class='table table-responsive premium-breakup-table'])[3]")
+//	private WebElement clickBTN;
 	
 	@FindBy(xpath="(//button[@title='OK'])[5]")
 	private WebElement okBTN;
@@ -47,35 +47,35 @@ public class PremiumPage {
 		
 	}
 	
-	public void Clickslider1() throws AWTException
-	{
-		slider.click();
-		Robot r=new Robot();
-		r.mousePress(0);
-		r.mouseMove(5, 0);
-		r.mouseRelease(0);
-	}
+//	public void Clickslider1() throws AWTException
+//	{
+//		slider.click();
+//		Robot r=new Robot();
+//		r.mousePress(0);
+//		r.mouseMove(5, 0);
+//		r.mouseRelease(0);
+//	}
 	
-	public void clikcslider2() throws AWTException
-	{
-		Robot r1=new Robot();
-		r1.mousePress(1);
-		r1.mouseMove(66, 0);
-		r1.mouseRelease(0);
-		clickslide.click();
-	}
+//	public void clikcslider2() throws AWTException
+//	{
+//		Robot r1=new Robot();
+//		r1.mousePress(1);
+//		r1.mouseMove(66, 0);
+//		r1.mouseRelease(0);
+//		clickslide.click();
+//	}
 	public void clickbuyBTN()
 	{
 		buyBTN.click();
 	}
 	
-	public void cilckBTN()
+	/*public void cilckBTN()
 	{
-		clickBTN.click();
-		JavascriptExecutor js= (JavascriptExecutor)driver;
-		js.executeScript("window.scrollBy(0,3000)");
-		cancelBTN.click();
-	}
+	//	clickBTN.click();
+//		JavascriptExecutor js= (JavascriptExecutor)driver;
+//		js.executeScript("window.scrollBy(0,3000)");
+//		cancelBTN.click();
+	}*/
 	
 	public void cilckscroll() throws AWTException
 	{
@@ -85,8 +85,8 @@ public class PremiumPage {
 		
 	//	
 		
-		
-		scroll.click();
+//		
+//		scroll.click();
 		cancelBTN.click();
 		
 //		Robot r=new Robot();
@@ -100,11 +100,11 @@ public class PremiumPage {
 	public void clickok() 
 	{
 	
-		JavascriptExecutor js= (JavascriptExecutor)driver;
+	//	JavascriptExecutor js= (JavascriptExecutor)driver;
 //		js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
 //		js.executeScript("arguments[0].scrollIntoView();", okBTN);
-		js.executeScript("window.scrollBy(0,6000)");
-		cancelBTN.click();
+//		js.executeScript("window.scrollBy(0,6000)");
+//		cancelBTN.click();
 		okBTN.click();
 	}
 	
